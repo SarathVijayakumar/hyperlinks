@@ -12,16 +12,16 @@ public class App {
        // TODO: call your test case functions one after other here
        SearchAmazon searchAmazon = new SearchAmazon(); // Initialize your SearchAmazon class
 
-        // Call the testCase01 method
-        searchAmazon.testCase01();
-        searchAmazon.endTest();
-        //END Tests
+        // // Call the testCase01 method
+        // searchAmazon.testCase01();
+        // searchAmazon.endTest();
+        // //END Tests
 
 
-        //  CountHyperlinks countHyperlinks = new CountHyperlinks();  
-        // countHyperlinks.testCase01();
-        // // End Tests
-        // countHyperlinks.endTest(); 
+         CountHyperlinks countHyperlinks = new CountHyperlinks();  
+        countHyperlinks.testCase01();
+        // End Tests
+        countHyperlinks.endTest(); 
 
 
         //     // Call the LinkedIn automation methods here
